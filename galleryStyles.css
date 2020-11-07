@@ -38,15 +38,17 @@ nav li{
 
 .gallery{
     margin: 10px 50px;
+    max-width: 96%;
 }
 
 .gallery img{
     transition: 1s;
     padding: 15px;
-    width: 200px;
+    width: 23%;
+    min-width: 300px;
 }
 
 .gallery img:hover{
-    filter: grayscale(100%);
+    filter: grayscale(50%);
     transform: scale(1.1);
 }
