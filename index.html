@@ -4,13 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="galleryStyles.css">
+    <link rel="stylesheet" href="lightbox.min.css">
+    <script src="lightbox-plus-jquery.min.js ">
+        lightbox.option({
+            "wrapAround": true
+        })
+    </script>
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <img src="img/12345.jpg" alt="logo" width="100">
+                <img src="images/12345.jpg" alt="logo" width="100">
             </div>
 
             <nav>
@@ -24,28 +30,17 @@
     </header>
 
     <div class="gallery">
-        <div class="row">
-            <div class="column">
-                <img src="img/image1.jpg">
-                <img src="img/image2.jpg">
-                <img src="img/image3.jpg">
-            </div>
-            <div class="column">
-                <img src="img/image4.jpg">
-                <img src="img/image5.jpg">
-                <img src="img/image6.jpg">
-            </div>
-            <div class="column">
-                <img src="img/image7.jpg">
-                <img src="img/image8.jpg">
-                <img src="img/image9.jpg">
-            </div>
-            <div class="column">
-                <img src="img/image10.jpg">
-                <img src="img/image11.jpg">
-                <img src="img/image12.jpg">
-            </div>
-        </div>
+        <a href="images/image001.jpg" data-lightbox="mygallery"><img src="images/image001-small.jpg" alt="A small version of image001"></a>
+        <a href="images/image002.jpg" data-lightbox="mygallery"><img src="images/image002-small.jpg" alt="A small version of image002"></a>
+        <a href="images/image000.jpg" data-lightbox="mygallery"><img src="images/image000-small.jpg" alt="A small version of image000"></a>
+        <a href="images/image003.jpg" data-lightbox="mygallery"><img src="images/image003-small.jpg" alt="A small version of image003"></a>
+        <a href="images/image004.jpg" data-lightbox="mygallery"><img src="images/image004-small.jpg" alt="A small version of image004"></a>
+        <a href="images/image006.jpg" data-lightbox="mygallery"><img src="images/image006-small.jpg" alt="A small version of image006"></a>
+        <a href="images/image007.jpg" data-lightbox="mygallery"><img src="images/image007-small.jpg" alt="A small version of image007"></a>
+        <a href="images/image005.jpg" data-lightbox="mygallery"><img src="images/image005-small.jpg" alt="A small version of image005"></a>
+        <a href="images/image008.jpg" data-lightbox="mygallery"><img src="images/image008-small.jpg" alt="A small version of image008"></a>
+        <a href="images/image009.jpg" data-lightbox="mygallery"><img src="images/image009-small.jpg" alt="A small version of image009"></a>
+        <a href="images/image010.jpg" data-lightbox="mygallery"><img src="images/image010-small.jpg" alt="A small version of image010"></a>
     </div>
 </body>
 </html>
